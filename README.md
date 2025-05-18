@@ -1,16 +1,14 @@
 # AI-ES-CCP
-Instructions:
-·      Students may work in groups of 03 at maximum.
-·      Your assignment will be graded according to the rubric (provided with it).
-·      Only the group lead member of each group will be submitting the CCP task.
-·      Submit your assignment (.ipynb project and its report and video) in form of github repo oon Google Classroom. (Deadline: May 18, 2025).
+AI-Enhanced OWASP ZAP Vulnerability Scanner Automated Web Security Testing | AI-Powered Risk Scoring | Interactive HTML Reports An AI-augmented vulnerability scanner built on OWASP ZAP, combining traditional security scanning with machine learning to detect and prioritize web vulnerabilities (SQLi, XSS, SSRF, etc.).
 
-Deliverables:
-Should be submitted on GitHub in form of github repo named AIES CCP Project
+Key Features OWASP ZAP Integration: Automated spidering + active scanning via ZAP API.
 
-1. Title page, including name of group members, roll numbers, course code, and course title.
-2. Your report (PDF format) should include a description of each term used, its code, and its justifications.
-3. The source folder of the .ipynb project.4.  Drafted assumptions (if any).
-5) A 10-15 mins explanation video uploaded on YouTube (unlisted or listed it's student choice)
+Hybrid AI Model: SVM for vulnerability classification (e.g., CWE-89 for SQLi). Neural Network for severity prediction (1–10 risk score). Prioritized Reporting: Generates HTML reports with remediation guidance. User-Friendly GUI: Tkinter interface for easy scanning. Excel-Based Training: Uses vulnerabilities.xlsx to train the AI model.
 
-sirf aik banda submit kareyga kya
+Tech Stack Python 3.12 | TensorFlow | scikit-learn | pandas OWASP ZAP API (python-owasp-zap-v2.4)
+
+Install dependencies: pip install tensorflow python-owasp-zap-v2.4 pandas openpyxl
+
+Run OWASP ZAP in daemon mode: zap.sh -daemon -port 8080 -config api.key=YOUR_KEY
+
+Launch the scanner: python main.py
