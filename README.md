@@ -1,4 +1,5 @@
 # AI-ES-CCP
+Youtube:https://youtu.be/bqZRF7_A2iU?si=DNXDw9LzZDBCEAwK
 AI-Enhanced OWASP ZAP Vulnerability Scanner Automated Web Security Testing | AI-Powered Risk Scoring | Interactive HTML Reports An AI-augmented vulnerability scanner built on OWASP ZAP, combining traditional security scanning with machine learning to detect and prioritize web vulnerabilities (SQLi, XSS, SSRF, etc.).
 
 Key Features OWASP ZAP Integration: Automated spidering + active scanning via ZAP API.
